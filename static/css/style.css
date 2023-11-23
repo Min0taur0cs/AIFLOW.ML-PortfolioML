@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.gallery a, body a {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.gallery a:hover, body a:hover {
+    background-color: grey;
+}
